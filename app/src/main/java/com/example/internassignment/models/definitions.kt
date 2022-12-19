@@ -1,4 +1,4 @@
-package com.example.internassignment
+package com.example.internassignment.models
 
 
 data class definitions(

@@ -1,6 +1,7 @@
-package com.example.internassignment
+package com.example.internassignment.repository
 
 import android.util.Log
+import com.example.internassignment.models.response
 import com.example.internassignment.retrofit.instance
 import retrofit2.HttpException
 import retrofit2.Response

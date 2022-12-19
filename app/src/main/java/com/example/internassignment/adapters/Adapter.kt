@@ -3,9 +3,9 @@ package com.example.internassignment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.internassignment.models.definitions
 
 class Adapter(): RecyclerView.Adapter<NewsViewHolder>() {
 
@@ -27,9 +27,9 @@ class Adapter(): RecyclerView.Adapter<NewsViewHolder>() {
         holder.type.text = currentItem.type
     }
 
-    fun updateResponse(updatedNews: List<definitions>) {
+    fun updateResponse(updatedResponse: List<definitions>) {
         items.clear()
-        items.addAll(updatedNews)
+        items.addAll(updatedResponse)
 
         notifyDataSetChanged()
     }

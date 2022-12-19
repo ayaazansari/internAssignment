@@ -1,6 +1,6 @@
 package com.example.internassignment.retrofit
 
-import com.example.internassignment.API
+import com.example.internassignment.api.API
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

@@ -3,8 +3,8 @@ package com.example.internassignment.viewmodel
 import android.app.Application
 import android.util.Log
 import androidx.lifecycle.*
-import com.example.internassignment.MainRepo
-import com.example.internassignment.response
+import com.example.internassignment.repository.MainRepo
+import com.example.internassignment.models.response
 import kotlinx.coroutines.launch
 
 

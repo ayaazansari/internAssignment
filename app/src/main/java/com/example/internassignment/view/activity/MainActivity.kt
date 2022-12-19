@@ -1,18 +1,13 @@
-package com.example.internassignment.view
+package com.example.internassignment.view.activity
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
-import android.widget.EditText
 import android.widget.ProgressBar
-import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.internassignment.AUTHTOKEN
 import com.example.internassignment.Adapter
 import com.example.internassignment.R
+import com.example.internassignment.utils.AUTHTOKEN
 import com.example.internassignment.viewmodel.MainViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
